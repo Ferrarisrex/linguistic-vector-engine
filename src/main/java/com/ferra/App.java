@@ -5,7 +5,8 @@ import java.util.*;
 import java.util.stream.Collectors;
 
 public class App {
-    private static final String EMBEDDING = "dolma_300_2024_1.2M.100_combined.txt";
+    //private static final String EMBEDDING = "dolma_300_2024_1.2M.100_combined.txt"; // for doing comparisons
+    private static final String EMBEDDING = "numberbatch-en.txt"; // for finding similarities
     private static final int VECTOR_SIZE = 300; // must match your file dimension
     private static final Map<String, double[]> embeddings = new HashMap<>();
 
